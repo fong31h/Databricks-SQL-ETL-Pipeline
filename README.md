@@ -24,6 +24,7 @@ The Medallion Architecture Data Flow:
 The bronze table holds raw stock market data pulled directly from the Alphavantage API.
 
 <br>
+<br>
 
 <img src="/assets/Screenshot 2026-07-10 220354.png" width="500">
 
@@ -40,9 +41,19 @@ Open, High, Low, and Close are of the data type "double," since they need decima
 
 <img src="/assets/Screenshot 2026-07-10 220547.png" width="500">
 
+<br>
+<br>
+
 The gold table holds metrics calculated from the silver table. These were done primarily with SQL WINDOW functions, utilizing PARTITION BY, ORDER BY, LAG(), and other functions to calculate moving averages and other aggregations.
 
+<br>
+<br>
+
 <img src="/assets/Screenshot 2026-07-10 221618.png" width="300">
+
+<br>
+<br>
+<br>
 
 Lastly, my Stock Market Dashboard updates automatically every morning, providing a one-stop shop for critical stock decisions made by investment professionals.
 
