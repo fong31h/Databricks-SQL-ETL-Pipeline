@@ -6,6 +6,9 @@ Stock Market Dashboard provides one-stop shop for analyzing the most important m
 
 This project takes raw data obtained from API calls to the Alphavantage stock market API and transforms it into business-ready analytics and reporting following the industry-standard Medallion architecture: Bronze-Silver-Gold.
 
+<br>
+<br>
+
 <img src="/assets/Screenshot 2026-07-10 195611.png" width="600">
 
 <br>
@@ -15,13 +18,17 @@ The Medallion Architecture Data Flow:
 
 <img src="/assets/Untitled Diagram.drawio.png" width="500">
 
-<br />
 <br>
 <br>
 
 The bronze table holds raw stock market data pulled directly from the Alphavantage API.
 
+<br>
+
 <img src="/assets/Screenshot 2026-07-10 220354.png" width="500">
+
+<br>
+<br>
 
 The silver table holds data cleaned with SQL CAST, and WHERE statements, 
 
