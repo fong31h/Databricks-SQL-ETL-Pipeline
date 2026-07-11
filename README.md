@@ -46,11 +46,9 @@ Open, High, Low, and Close are of the data type "double," since they need decima
 The gold table holds metrics calculated from the silver table. These were done primarily with SQL WINDOW functions, utilizing PARTITION BY, ORDER BY, LAG(), and other functions to calculate moving averages and other aggregations.
 
 <br>
-<br>
 
 <img src="/assets/Screenshot 2026-07-10 221618.png" width="300">
 
-<br>
 <br>
 <br>
 
