@@ -8,4 +8,4 @@ This project takes raw data obtained from API calls to the Alphavantage stock ma
 
 The Medallion Architecture Data Flow goes like so:
 
-<img src="/assets/Untitled Diagram.drawio.png" width="600">
+<img src="/assets/Untitled Diagram.drawio.png" width="300">
