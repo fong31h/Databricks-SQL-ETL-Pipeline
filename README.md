@@ -10,13 +10,13 @@ This project takes raw data obtained from API calls to the Alphavantage stock ma
 
 The Medallion Architecture Data Flow:
 
-<img src="/assets/Untitled Diagram.drawio.png" width="300">
+<img src="/assets/Untitled Diagram.drawio.png" width="500">
 
 
 
 The bronze table holds raw stock market data pulled directly from the Alphavantage API.
 
-<img src="/assets/Screenshot 2026-07-10 220354.png" width="300">
+<img src="/assets/Screenshot 2026-07-10 220354.png" width="500">
 
 The silver table holds data cleaned with SQL CAST, and WHERE statements, 
 
@@ -26,7 +26,7 @@ Open, High, Low, and Close are daily stock market measures from which financial 
 
 Open, High, Low, and Close are of the data type "double," since they need decimals. Stock is "string," since it is text only. Date is "date," and Volume is "bigint," since it doesn't need decimal places.
 
-<img src="/assets/Screenshot 2026-07-10 220547.png" width="300">
+<img src="/assets/Screenshot 2026-07-10 220547.png" width="500">
 
 The gold table holds metrics calculated from the silver table. These were done primarily with SQL WINDOW functions, utilizing PARTITION BY, ORDER BY, LAG(), and other functions to calculate moving averages and other aggregations.
 
