@@ -14,6 +14,9 @@ The Medallion Architecture Data Flow:
 
 <br />
 <br>
+<br>
+<br>
+<br>
 
 The bronze table holds raw stock market data pulled directly from the Alphavantage API.
 
@@ -40,5 +43,5 @@ If you wish to log into a Databricks account to view the dashboard, click [here]
 Otherwise, a screenshot below shows the dashboard. Critical metrics like moving averages, stock price, volatility, and volume are included to provide a complete picture into each stock's health.
 A selector is used to select different stocks to examine when desired.
 
-<img src="/assets/Screenshot 2026-07-11 160830.png" width="500">
+<img src="/assets/Screenshot 2026-07-11 160830.png" width="800">
 
