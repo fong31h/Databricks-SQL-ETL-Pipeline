@@ -8,13 +8,14 @@ This project takes raw data obtained from API calls to the Alphavantage stock ma
 
 <img src="/assets/Screenshot 2026-07-10 195611.png" width="600">
 
+<br>
+<br>
+
 The Medallion Architecture Data Flow:
 
 <img src="/assets/Untitled Diagram.drawio.png" width="500">
 
 <br />
-<br>
-<br>
 <br>
 <br>
 
