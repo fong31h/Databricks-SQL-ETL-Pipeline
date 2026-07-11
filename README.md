@@ -47,7 +47,7 @@ The gold table holds metrics calculated from the silver table. These were done p
 
 <br>
 
-<img src="/assets/Screenshot 2026-07-10 221618.png" width="300">
+<img src="/assets/Screenshot 2026-07-10 221618.png" width="500">
 
 <br>
 <br>
