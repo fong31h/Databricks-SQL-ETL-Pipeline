@@ -13,6 +13,7 @@ The Medallion Architecture Data Flow:
 <img src="/assets/Untitled Diagram.drawio.png" width="500">
 
 <br />
+<br>
 
 The bronze table holds raw stock market data pulled directly from the Alphavantage API.
 
